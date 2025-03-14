@@ -40,11 +40,11 @@ const Community = () => {
           </p>
         </div>
         <div className="mb-20">
-          <ul className="flex flex-col md:flex-row justify-center items-center gap-10">
+          <ul className="flex flex-col md:flex-wrap  md:flex-row justify-center items-center gap-10">
             {images.map(({ id, image, title, description }) => (
               <li
                 key={id}
-                className="relative w-full md:w-auto my-5 mb-15 mx-4"
+                className="relative w-full md:w-auto my-8 mb-23 mx-4 "
               >
                 <div className="flex justify-center">
                   <img src={image} className="w-[80%] md:w-[320px]" alt="" />
