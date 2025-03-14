@@ -11,13 +11,19 @@ const Calender = () => {
   return (
     <>
       <div className=" flex flex-col md:flex-row justify-center items-center ">
-        <div className="mb-4 md:mb-0 ">
-          <img src={pana} width={250} alt="" />
+        <div className="mb-6 md:mb-0 ">
+          <img src={pana} width={300} alt="" />
         </div>
-        <div className="ml-30">
-          <h1 className="text-[#717171] text-3xl w-130 md:text-left mb-6 font-bold mx-5 md:mx-0">
-            How to design your site footer like we did
+        <div className="mx-5 md:ml-30 md:mx-0">
+          <h1 className="text-[#717171] text-3xl md:text-left mb-6 font-bold mx-5 md:mx-0">
+            How to design your site footer like
+            <span className="inline md:hidden">&nbsp;</span>
+            <span className="hidden md:inline">
+              <br />
+            </span>
+            we did
           </h1>
+
           <p className="text-[#717171] w-full md:w-105 lg:w-150 font-light  mb-5  ">
             Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
             augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
@@ -29,9 +35,11 @@ const Calender = () => {
             hendrerit venenatis libero. Donec consectetur faucibus ipsum id
             gravida.
           </p>
-          <button className="bg-[#4CAF4F]  rounded-sm w-25 h-10 text-white mx-auto">
-            Learn More
-          </button>
+          <a href="">
+            <button className="bg-[#4CAF4F] cursor-pointer rounded-sm w-25 h-10 text-white mx-auto">
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
 
@@ -42,7 +50,7 @@ const Calender = () => {
           <div className="mb-4 md:mb-0 ">
             <img src={tesla} width={250} alt="" />
           </div>
-          <div className="ml-30">
+          <div className=" mx-5 md:ml-30 md:mx-0">
             <p className="text-[#717171] w-full md:w-105 lg:w-150 font-light  mb-2  ">
               Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
               lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu

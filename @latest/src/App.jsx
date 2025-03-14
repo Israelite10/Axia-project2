@@ -3,6 +3,8 @@ import Home from "./assets/components/Home";
 import Menu from "./assets/components/Menu";
 import Unlock from "./assets/components/Unlock";
 import Calender from "./assets/components/Calender";
+import Community from "./assets/components/Community";
+import Footer from "./assets/components/Footer";
 function App() {
   return (
     <>
@@ -11,6 +13,8 @@ function App() {
       <Menu />
       <Unlock />
       <Calender />
+      <Community />
+      <Footer />
     </>
   );
 }
