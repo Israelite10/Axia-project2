@@ -54,7 +54,7 @@ const Navbar = () => {
             Login
           </a>
           <a href="">
-            <button className="bg-[#4CAF4F] font-light text-white p-0.5 cursor-pointer rounded-sm">
+            <button className="bg-[#4CAF4F] font-light text-white p-1 w-20 cursor-pointer rounded-sm">
               Sign up
             </button>
           </a>
